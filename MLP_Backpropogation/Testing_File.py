@@ -21,7 +21,7 @@ def test_mlp(data_file):
 	new_OH_bias = new_parameters["bias2"]
 
 	## Forward propogation with updated weights and bias along with test data
-	new_HI_activation_output = forward_propogation(test_data, new_HI_weight, new_HI_bias,"sigmoid")  					## FOr Hidden and input layer
+	new_HI_activation_output = forward_propogation(test_data, new_HI_weight, new_HI_bias,"sigmoid")  			## For Hidden and input layer
 	new_OH_activation_output= forward_propogation(new_HI_activation_output[0], new_OH_weight, new_OH_bias,"softmax")  	## For output and hidden layer
 	predicted_labels = np.argmax(new_OH_activation_output[0].T,axis=1)
  
