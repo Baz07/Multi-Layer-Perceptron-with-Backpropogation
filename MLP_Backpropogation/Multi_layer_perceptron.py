@@ -267,8 +267,7 @@ def accuracy(y_true, y_pred):
 ## Final Accuracy
 
 '''   
-After running on defined parameters, I was able to Validation accuracy = 94.45%
-(In case of any discrepancies while testing the code, please contact "a49goyal@uwaterloo.ca")
+After running on defined parameters, I was able to Validation accuracy = 94.42%
 
 '''
 
